@@ -1,8 +1,224 @@
 ﻿@{
     ViewData["Title"] = "Home Page";
 }
-
-<div class="text-center">
-    <h1 class="display-4">Welcome</h1>
-    <p>Learn about <a href="https://learn.microsoft.com/aspnet/core">building Web apps with ASP.NET Core</a>.</p>
-</div>
+<<section id="home" class="container py-5">
+    <div class="row align-items-center">
+        <div class="col-lg-7">
+            <p class="text-muted mb-3">Welcome to My Portfolio</p>
+            <h1 class="display-4 fw-bold">
+                Hi, I'm Raven Joe R. Albaño
+            </h1>
+            <h4 class="text-secondary mb-3">
+                Aspiring Software Developer
+            </h4>
+            <p class="lead">
+                I am a Bachelor of Science in Information Technology student who enjoys
+                building software, learning new technologies, and solving real-world problems through programming.
+            </p>
+            <a href="#projects" class="btn btn-dark btn-lg me-2">
+                View Projects
+            </a>
+            <a href="#contact" class="btn btn-outline-dark btn-lg">
+                Contact Me
+            </a>
+        </div>
+        <div class="col-lg-5 text-center mt-4 mt-lg-0">
+            <img src="~/images/AKO2.jpg"
+                 class="img-fluid rounded-circle shadow"
+                 width="280">
+        </div>
+    </div>
+</section>
+<hr class="my-5" />
+<section id="about" class="container py-4">
+    <h2 class="fw-bold mb-4">
+        About Me
+    </h2>
+    <div class="card shadow-sm">
+        <div class="card-body">
+            <p>
+                I am currently studying Bachelor of Science in Information Technology.
+                I enjoy creating desktop and web applications while continuously improving
+                my programming skills through school projects and self-learning.
+            </p>
+            <p>
+                My goal is to become a full-stack software developer and build systems that
+                make people's work easier. While I'm in my free time, I enjoy programming,
+                reading, gaming, and learning new technologies.
+            </p>
+            <hr>
+            <div class="row">
+                <div class="col-md-4">
+                    <h6 class="fw-bold">Education</h6>
+                    <p>BS Information Technology</p>
+                </div>
+                <div class="col-md-4">
+                    <h6 class="fw-bold">Career Goal</h6>
+                    <p>Full Stack Developer</p>
+                </div>
+                <div class="col-md-4">
+                    <h6 class="fw-bold">Interests</h6>
+                    <p>Programming, Reading, Gaming</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<hr class="my-5" />
+<section id="skills" class="container py-4">
+    <h2 class="fw-bold mb-4">
+        Skills
+    </h2>
+    <div class="row g-4">
+        <div class="col-md-6 col-lg-3">
+            <div class="card shadow-sm h-100">
+                <div class="card-body">
+                    <h5 class="card-title">
+                        Programming
+                    </h5>
+                    <p class="card-text">
+                        C#
+                        <br>
+                        Java
+                        <br>
+                        Python
+                        <br>
+                        VB.NET
+                    </p>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-6 col-lg-3">
+            <div class="card shadow-sm h-100">
+                <div class="card-body">
+                    <h5>Web</h5>
+                    <p>
+                        HTML
+                        <br>
+                        CSS
+                        <br>
+                        Bootstrap
+                        <br>
+                        ASP.NET MVC
+                    </p>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-6 col-lg-3">
+            <div class="card shadow-sm h-100">
+                <div class="card-body">
+                    <h5>Databases</h5>
+                    <p>
+                        MySQL
+                        <br>
+                        MS Access
+                    </p>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-6 col-lg-3">
+            <div class="card shadow-sm h-100">
+                <div class="card-body">
+                    <h5>Tools</h5>
+                    <p>
+                        Visual Studio
+                        <br>
+                        VS Code
+                        <br>
+                        Pycharm
+                        <br>
+                        GitHub
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<hr class="my-5" />
+<section id="projects" class="container py-4">
+    <h2 class="fw-bold mb-4">
+        Projects
+    </h2>
+    <div class="row g-4">
+        <div class="col-lg-4">
+            <div class="card shadow-sm h-100">
+                <img src="~/images/SalesInventorySystem.jpg" class="card-img-top">
+                <div class="card-body">
+                    <h5>Sales and Inventory Management System</h5>
+                    <p>
+                        Desktop application that manages products,
+                        inventory, and sales transactions.
+                    </p>
+                    <span class="badge bg-secondary">VB.NET</span>
+                    <span class="badge bg-secondary">MS Access</span>
+                </div>
+                <div class="card-footer bg-white border-0">
+                    <button class="btn btn-dark w-100">
+                        View Details
+                    </button>
+                </div>
+            </div>
+        </div>
+        <div class="col-lg-4">
+            <div class="card shadow-sm h-100">
+                <img src="~/images/ParkingSystem.jpg" class="card-img-top">
+                <div class="card-body">
+                    <h5>Parking Management System</h5>
+                    <p>
+                        Console-based parking system with receipt generation
+                        and payment computation.
+                    </p>
+                    <span class="badge bg-secondary">Python</span>
+                </div>
+                <div class="card-footer bg-white border-0">
+                    <button class="btn btn-dark w-100">
+                        View Details
+                    </button>
+                </div>
+            </div>
+        </div>
+        <div class="col-lg-4">
+            <div class="card shadow-sm h-100">
+                <img src="~/images/LoanSystem.jpg" class="card-img-top">
+                <div class="card-body">
+                    <h5>Loan Application System</h5>
+                    <p>
+                        A platform that allows users 
+                        to apply for loans and check their approval status.
+                        It computes Interest, Monthly Amortization, and Total Amount Payable.
+                    </p>
+                    <span class="badge bg-secondary">VB.NET</span>
+                </div>
+                <div class="card-footer bg-white border-0">
+                    <button class="btn btn-dark w-100">
+                        View Details
+                    </button>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<hr class="my-5" />
+<section id="contact" class="container py-4 mb-5">
+    <h2 class="fw-bold mb-4">
+        Contact Me
+    </h2>
+    <div class="card shadow-sm">
+        <div class="card-body">
+            <div class="row">
+                <div class="col-md-6">
+                    <p><strong>Email</strong><br>rondoloravenjoe@gmail.com</p>
+                    <p><strong>Mobile</strong><br>0976-228-6079</p>
+                </div>
+                <div class="col-md-6">
+                    <p><strong>GitHub</strong><br>github.com/AlbanoRavenPOGI</p>
+                    <p><strong>LinkedIn</strong><br>linkedin.com/in/raven</p>
+                    <p><strong>Facebook</strong><br>Raven Albaño</p>
+                </div>
+            </div>
+            <a class="btn btn-dark mt-3">
+                Download Resume
+            </a>
+        </div>
+    </div>
+</section>
