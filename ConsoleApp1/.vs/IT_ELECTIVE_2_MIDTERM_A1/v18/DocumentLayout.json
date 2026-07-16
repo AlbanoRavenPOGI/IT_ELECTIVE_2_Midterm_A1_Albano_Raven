@@ -38,8 +38,7 @@
               "RelativeToolTip": "WebApplication1\\wwwroot\\css\\site.css",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
-              "WhenOpened": "2026-07-16T16:21:40.983Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-07-16T16:21:40.983Z"
             },
             {
               "$type": "Document",
@@ -51,8 +50,7 @@
               "RelativeToolTip": "WebApplication1\\Views\\Shared\\_Layout.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABsAAAAOAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-07-16T12:56:41.377Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-07-16T12:56:41.377Z"
             },
             {
               "$type": "Document",
@@ -62,7 +60,7 @@
               "RelativeDocumentMoniker": "WebApplication1\\Views\\Home\\Index.cshtml",
               "ToolTip": "C:\\Users\\raven\\OneDrive\\Desktop\\IT_ELECTIVE_2_Midterm_A1_Albano_Raven\\ConsoleApp1\\WebApplication1\\Views\\Home\\Index.cshtml",
               "RelativeToolTip": "WebApplication1\\Views\\Home\\Index.cshtml",
-              "ViewState": "AgIAAMMAAAAAAAAAAAAAANwAAAAQAAAAAAAAAA==",
+              "ViewState": "AgIAAIQAAAAAAAAAAAAAAJUAAAA6AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2026-07-16T12:56:29.402Z",
               "EditorCaption": ""
@@ -77,8 +75,7 @@
               "RelativeToolTip": "WebApplication1\\Controllers\\HomeController.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAgAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-07-16T12:55:55.606Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-07-16T12:55:55.606Z"
             }
           ]
         }
