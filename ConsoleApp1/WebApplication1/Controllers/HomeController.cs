@@ -40,7 +40,7 @@ public class HomeController : Controller
         ViewData["Mobile"] = "0976-228-6079";
         ViewData["Github"] = "github.com/AlbanoRavenPOGI";
         ViewData["LinkedIn"] = "linkedin.com/in/raven";
-        ViewData["Facebook"] = "Raven Alban?o";
+        ViewData["Facebook"] = "Raven Albano";
         return View();
     }
 
