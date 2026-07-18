@@ -5,28 +5,24 @@
     <div class="card shadow-sm">
         <div class="card-body">
             <p>
-                I am currently studying Bachelor of Science in Information Technology.
-                I enjoy creating desktop and web applications while continuously improving
-                my programming skills through school projects and self-learning.
+                @ViewData["About"]
             </p>
             <p>
-                My goal is to become a full-stack software developer and build systems that
-                make people's work easier. While I'm in my free time, I enjoy programming,
-                reading, gaming, and learning new technologies.
+                @ViewData["AboutMe"]
             </p>
             <hr>
             <div class="row">
                 <div class="col-md-4">
                     <h6 class="fw-bold">Education</h6>
-                    <p>BS Information Technology</p>
+                    <p>@ViewData["Education"]</p>
                 </div>
                 <div class="col-md-4">
                     <h6 class="fw-bold">Career Goal</h6>
-                    <p>Full Stack Developer</p>
+                    <p>@ViewData["CareerGoal"]</p>
                 </div>
                 <div class="col-md-4">
                     <h6 class="fw-bold">Interests</h6>
-                    <p>Programming, Reading, Gaming</p>
+                    <p>@ViewData["Interest"]</p>
                 </div>
             </div>
         </div>

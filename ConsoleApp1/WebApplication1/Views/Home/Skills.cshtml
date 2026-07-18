@@ -1,5 +1,4 @@
 ﻿
-<hr class="my-5" />
 <section id="skills" class="container py-4">
     <h2 class="fw-bold mb-4">
         Skills
@@ -12,13 +11,7 @@
                         Programming
                     </h5>
                     <p class="card-text">
-                        C#
-                        <br>
-                        Java
-                        <br>
-                        Python
-                        <br>
-                        VB.NET
+                        @ViewData["ProgrammingLanguages"]
                     </p>
                 </div>
             </div>
@@ -28,13 +21,7 @@
                 <div class="card-body">
                     <h5>Web</h5>
                     <p>
-                        HTML
-                        <br>
-                        CSS
-                        <br>
-                        Bootstrap
-                        <br>
-                        ASP.NET MVC
+                        @ViewData["Web"]
                     </p>
                 </div>
             </div>
@@ -44,9 +31,7 @@
                 <div class="card-body">
                     <h5>Databases</h5>
                     <p>
-                        MySQL
-                        <br>
-                        MS Access
+                        @ViewData["Databases"]
                     </p>
                 </div>
             </div>
@@ -56,13 +41,7 @@
                 <div class="card-body">
                     <h5>Tools</h5>
                     <p>
-                        Visual Studio
-                        <br>
-                        VS Code
-                        <br>
-                        Pycharm
-                        <br>
-                        GitHub
+                        @ViewData["Tools"]
                     </p>
                 </div>
             </div>
